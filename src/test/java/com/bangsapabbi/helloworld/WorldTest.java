@@ -7,8 +7,10 @@ import org.junit.Test;
 public class WorldTest {
 
     @Test
-    public void greetResultsInHello() {
+    public void greetResultsInHello() 
+    {
         World world = new World();
-        assertEquals("Hello world!", world.greet()); }
+        assertEquals("Hello world!", world.greet()); 
+    }
 
 }
